@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - This program prints a line with the printf function tho
- * Return: 0(this was succesful tho)
+ * main - This prints out a string to stdout
+ * Return: 0 (if successful)
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n")
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
-}
