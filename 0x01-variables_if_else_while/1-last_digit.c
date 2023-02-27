@@ -1,6 +1,7 @@
-i#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Prints the last digits of a randomly generated numbers
  * and whether it is greater than 5, less than 6, or 0.
@@ -10,6 +11,7 @@ i#include <stdlib.h>
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
