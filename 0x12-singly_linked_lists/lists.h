@@ -6,11 +6,13 @@
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
- *
- * Description: singly linked list node structure
- * for Holberton project
+ * We are creating a library named lists.h
+ * Description: This is a singly linked list node structure
+ * specially for lists.h alx project project
  */
+
 typedef struct list_s
+
 {
 	char *str;
 	unsigned int len;
