@@ -12,7 +12,7 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 	{
-	void *myPointer
+	void *myPtr
 	unsigned int compSize;
 
 	if (nmemb == 0 || size == 0)
@@ -20,17 +20,17 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	compSize = nmemb * size;
 
-	myPointer = malloc(compSize);
+	myPtr = malloc(compSize);
 
-	if (myPointer == NULL)
+	if (myPtr == NULL)
 		return (NULL);
 
-	char *char_pointer = myPointer;
+	char *char_ptr = myPtr;
 	unsigned int x;
 
 	for (x = 0; x < compSize; x++)
 
-		char_pointer[x] = 0;
+		char_ptr[x] = 0;
 
-	return (myPointer);
+	return (myPtr);
 }
